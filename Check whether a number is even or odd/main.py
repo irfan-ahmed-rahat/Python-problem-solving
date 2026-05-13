@@ -1,5 +1,5 @@
 
-Problem 2: Check if a number is Even or Odd.
+# Problem 2: Check if a number is Even or Odd.
 
 # Take input from the user and convert to integer
 num = int(input("Enter a number: "))
