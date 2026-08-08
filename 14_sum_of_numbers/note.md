@@ -4,10 +4,10 @@ Problem 14: Calculate the sum of numbers from 1 to n.
 
 n = int(input("Enter num: "))
 
-# খালি মাটির ব্যাংক
+# মাটির খালি ব্যাংক
 total = 0
 
-# ১ থেকে n পর্যন্ত লুপ চলবে
+# 1 থেকে n পর্যন্ত লুপ চলবে
 for i in range(1, n + 1):
     # আগের জমানো মানের সাথে নতুন তৈরি হওয়া সংখ্যা (i) যোগ করা হচ্ছে
     total = total + i
