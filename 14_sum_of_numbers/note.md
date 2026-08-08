@@ -4,7 +4,9 @@ Problem 14: Calculate the sum of numbers from 1 to n.
 
 n = int(input("Enter num: "))
 
-# মাটির খালি ব্যাংক
+
+
+#মাটির খালি ব্যাংক
 total = 0
 
 # 1 থেকে n পর্যন্ত লুপ চলবে
