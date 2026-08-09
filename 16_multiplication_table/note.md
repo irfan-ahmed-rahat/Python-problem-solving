@@ -6,7 +6,7 @@ n = int(input("Enter number: "))
 
 print(f"\n--- Multiplication Table of {n} ---")
 
-# ১ থেকে ১০ পর্যন্ত লুপ ঘুরবে
+#১ থেকে ১০ পর্যন্ত লুপ ঘুরবে
 for i in range(1, 11):
 #n এর সাথে সিরিয়াল নম্বর i সরাসরি গুণ করা হচ্ছে
     result = n * i
