@@ -16,16 +16,21 @@ Problem 15: Calculate the factorial of a given number.
 """
 
 #ধাপ ১: ইউজারের কাছ থেকে একটি সংখ্যা ইনপুট নেওয়া
+
 n = int(input("Enter a number to find its factorial: ")) 
 
 #ধাপ ২: একটি গুণের বাক্স বা ভেরিয়েবল তৈরি করা (শুরুর মান অবশ্যই 1 হতে হবে)
+
 result = 1
 
 #ধাপ ৩: ১ থেকে n পর্যন্ত লুপ চালানো (n পর্যন্ত পৌঁছাতে সীমানা n + 1)
+
 for i in range(1, n + 1):
     
 `#ধাপ ৪: আগের গুণফলের সাথে নতুন সংখ্যাটি (i) গুণ করে আপডেট করা
+
     result = result * i 
 
 #ধাপ ৫: লুপ শেষে একদম বাইরে এসে ফাইনাল ফ্যাক্টরিয়াল প্রিন্ট করা
+
 print(f"The factorial of {n} is: {result}")
