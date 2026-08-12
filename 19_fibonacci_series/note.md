@@ -36,7 +36,7 @@ num2 = 1
 print(f"\nFibonacci Series up to {n} terms:")
 
 #ধাপ ৩: লুপ 
-for i in range(1, n + 1): # range(num) / range (0, num+1) দিলেও হবে
+for i in range(1, n + 1): # range(num) দিলেও হবে
 
     #মানে হচ্ছে লুপ টা কতবার ঘুরবে range ( num ) , তাহলে ইউজার যদি 5 ইনপুট দেয় তাহলে ৫ বার ঘুরব
 
