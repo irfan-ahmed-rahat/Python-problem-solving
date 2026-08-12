@@ -12,7 +12,7 @@ num2 = 1
 print(f"\nFibonacci Series up to {n} terms:")
 
 # ধাপ ৩: লুপ 
-for i in range(1, n + 1):
+for i in range(1, n + 1): # range(num) / range (0, num+1) দিলেও হবে
     
     # ধাপ ৪: প্রথম সংখ্যাটি প্রিন্ট  
     print(num1, end=" ")
