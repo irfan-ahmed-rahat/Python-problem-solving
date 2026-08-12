@@ -9,7 +9,7 @@ num = int(input("Enter how many terms you want: "))
 num1 = 0
 num2 = 1
 
-print(f"\nFibonacci Series up to {n} terms:")
+print(f"\nFibonacci Series up to {num} terms:")
 
 # ধাপ ৩: লুপ 
 for i in range(num): # range(1 ,num+1) দিলেও হবে
