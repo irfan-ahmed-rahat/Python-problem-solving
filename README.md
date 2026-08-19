@@ -152,12 +152,26 @@ Week 1–2: Basic Conditions & Logic
 
 
 
+Week 9: Advanced Web Prep (Dict, Exceptions, OOP)
+
+43. Create a dictionary to store student names and their marks, then find the student with the highest mark. 
+
+44. Count the frequency of each character in a string using a dictionary.
+
+45. Take two numbers from the user and divide them. Use try-except to handle ZeroDivisionError and ValueError.
+
+46. Create a Book class with attributes (title, author, price). Create an object of this class and create a method to display its details.
+
+47. Create a User class (Parent) and an Admin class (Child). The Admin class should inherit from User and have an extra method called manage_users().
+
+
+
 
 ---
 
 🔥 Week 9–10: Mini Projects (CLI Based)
 
-43. Guess the Number Game
+48 (43). Guess the Number Game
 
 
 
@@ -170,7 +184,7 @@ Show hints ("higher" / "lower")
 Show number of attempts
 
 
-44. Simple ATM System
+49 (44). Simple ATM System
 
 
 
@@ -183,7 +197,7 @@ Withdraw money
 Deposit money
 
 
-45. Student Database Management (CLI)
+50 (45). Student Database Management (CLI)
 
 
 
