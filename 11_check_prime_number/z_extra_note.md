@@ -7,7 +7,7 @@ if num > 1:
     # আমরা শুধু সংখ্যাটির বর্গমূল পর্যন্ত চেক করব
     limit = math.isqrt(num) + 1 
     
-    for i in range(2, limit):
+for i in range(2, limit):
         if num % i == 0:
             is_prime = False
             break
