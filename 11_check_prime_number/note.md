@@ -34,7 +34,7 @@ Problem 11: Check whether a number is prime or not.
 
 number = int(input("Enter a number: "))
 
-# ১ . শুরুতেই ধরে নিচ্ছি সংখ্যাটি প্রাইম 
+#১ . শুরুতেই ধরে নিচ্ছি সংখ্যাটি প্রাইম 
 is_prime = True
 
 # ২ . মৌলিক সংখ্যা অবশ্যই ১ এর চেয়ে বড় হতে হবে
@@ -49,10 +49,10 @@ if number > 1:
             break             # আর চেক করার দরকার নেই, লুপ থামাও
             
 else:
-    # সংখ্যাটি যদি ১ বা তার চেয়ে ছোট হয়, তবে সে কখনোই প্রাইম নয়
+    #সংখ্যাটি যদি ১ বা তার চেয়ে ছোট হয়, তবে সে কখনোই প্রাইম নয়
     is_prime = False
 
-# ৫. লুপের বাইরে এসে ফাইনাল চেক
+#৫. লুপের বাইরে এসে ফাইনাল চেক
 if is_prime == True:
     print(f"{number} is a Prime Number")
 else:
