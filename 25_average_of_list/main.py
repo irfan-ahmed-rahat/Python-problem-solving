@@ -8,7 +8,7 @@ total = 0
 
 # Calculate the sum of all elements in the list
 for num in numbers:
-    total += num
+    total += num # total = total +num
 
 # Count total elements and calculate the average
 count = len(numbers)
